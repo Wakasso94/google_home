@@ -1,0 +1,108 @@
+/*BismiLILLAH*/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    float: right;
+}
+.header a, .header button{
+    margin: 10px;
+    color: #000;
+    text-decoration: none;
+}
+.header button{
+    background: #4484f1;
+    padding: 8px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.main{
+    text-align: center;
+}
+.logo-img img{
+    width: 15%;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-left: 180px;
+   
+}
+.main div{
+    margin-top: 15px;
+}
+.search-box input{
+    width: 500px;
+    height: 40px;
+    margin: 4px;
+    padding: 3px;
+    border: 1px solid grey;
+    border-radius: 25px;
+}
+.btn button{
+    height: 40px;
+    width: auto;
+    color: #646464;
+    background: #f2f2f2;
+    margin: 3px;
+    border: none;
+    cursor: pointer;
+}
+.btn button:hover{
+    color: #373737;
+    background: #D3D3D3;
+    border: .5px solid lightgrey;
+
+}
+.footer{
+    background: #f2f2f2;
+    border-top: solid 1px #dfdfdf;
+    color: #6f6f6f;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    height: 8%;
+
+}
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer a{
+    margin-top: 0;
+}
+.footer .contry{
+    color: #6f6f6f;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-bottom: #dfdfdf solid 2px;
+}
+.footer .footer-left{
+    color: #6f6f6f;
+    padding-left: 20px;
+    padding-top: 10px;
+    
+}
+.footer .footer-left a{
+    padding-right: 15px;
+    color: #6f6f6f;
+}
+.footer-right{
+    color: #6f6f6f;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.footer-right a{
+    padding-right: 15px;
+    color: #6f6f6f;
+}
+.micro{
+    height: 28px;
+    cursor: pointer;
+   position: relative;
+   top: -55px;
+   right: -220px;
+}
